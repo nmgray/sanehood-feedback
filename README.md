@@ -8,7 +8,7 @@ This repository is the public place to:
 - request features
 - share usability feedback
 
-It is **not** the development repository. Engineering work happens in `sanehood-meditation`, while this repo is used to collect feedback and provide visible status updates without exposing implementation details.
+It is **not** the development repository. Engineering work happens separately, while this repo is used to collect feedback and provide visible status updates without exposing implementation details.
 
 ## What to expect
 
@@ -63,11 +63,5 @@ Developers may link internal work in the development repository to a public feed
 ## Pull requests
 
 This repository is not intended for public code contributions. Please use issues for feedback.
-
-## Development repository
-
-Main development happens in:
-
-- `nmgray/sanehood-meditation`
 
 Thanks for helping improve Sanehood.
