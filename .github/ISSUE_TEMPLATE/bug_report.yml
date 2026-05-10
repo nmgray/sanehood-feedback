@@ -1,0 +1,83 @@
+name: Bug report
+description: Report something that is broken or not working as expected
+title: "[Bug]: "
+labels:
+  - "type/bug"
+  - "status/needs-triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please be as specific as you can.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A short description of the problem
+      placeholder: The timer ended, but the session did not save.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps in order
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The session should have been saved and shown in history.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      placeholder: I returned to the dashboard and the session was missing.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Meditation session
+        - Login / account
+        - Dashboard
+        - Events
+        - Campaigns
+        - Mobile experience
+        - Accessibility
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser / device
+      placeholder: Chrome 135 on Windows 11, Safari on iPhone 15, etc.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recordings
+      description: Optional
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional context

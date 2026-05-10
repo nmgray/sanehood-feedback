@@ -1,0 +1,56 @@
+name: Improvement
+description: Suggest a refinement to an existing feature or experience
+title: "[Improvement]: "
+labels:
+  - "type/improvement"
+  - "status/needs-triage"
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: What feels off today?
+      placeholder: The onboarding flow works, but it feels too long.
+    validations:
+      required: true
+
+  - type: textarea
+    id: better
+    attributes:
+      label: What would make it better?
+      placeholder: Reduce the number of steps or show progress more clearly.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How much does this affect you?
+      options:
+        - Minor
+        - Moderate
+        - Major
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Meditation session
+        - Login / account
+        - Dashboard
+        - Events
+        - Campaigns
+        - Accessibility
+        - Performance
+        - Content / copy
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional

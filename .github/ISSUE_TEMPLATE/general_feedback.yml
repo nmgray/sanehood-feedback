@@ -1,0 +1,36 @@
+name: General feedback
+description: Share general product feedback that is not a bug or feature request
+title: "[Feedback]: "
+labels:
+  - "status/needs-triage"
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      placeholder: Share what you noticed, what felt good, or what could be better.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Meditation session
+        - Login / account
+        - Dashboard
+        - Events
+        - Campaigns
+        - Accessibility
+        - Performance
+        - Content / copy
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional
