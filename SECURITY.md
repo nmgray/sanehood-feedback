@@ -6,7 +6,7 @@ Please do not open public issues for security vulnerabilities or sensitive accou
 
 Use the private security disclosure process for Sanehood instead:
 
-https://github.com/nmgray/sanehood-meditation/security/advisories/new
+support@sanehood.com
 
 ## What to include
 
