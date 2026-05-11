@@ -58,7 +58,7 @@ If you need to report a security issue, please use the private security contact 
 
 ## How updates are shared
 
-Developers may link internal work in the development repository to a public feedback issue, but public updates here will stay high level. That means you may see status changes and short progress notes without detailed implementation discussion.
+Public updates in this repository will stay high level and will be summarized here without linking to internal repositories or private trackers. That means you may see status changes and short progress notes without detailed implementation discussion.
 
 ## Pull requests
 
