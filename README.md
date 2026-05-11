@@ -54,11 +54,12 @@ Not a fit:
 - security disclosures in public
 - support requests involving private account details
 
-If you need to report a security issue, please use the private security contact process instead of a public issue.
+If you need to report a security issue, do **not** open a public issue.
+Please use GitHub's private **Security issue** reporting option from this repository, or email the team at **support@sanehood.com**.
 
 ## How updates are shared
 
-Developers may link internal work in the development repository to a public feedback issue, but public updates here will stay high level. That means you may see status changes and short progress notes without detailed implementation discussion.
+Public updates in this repository will stay high level and will be summarized here without linking to internal repositories or private trackers. That means you may see status changes and short progress notes without detailed implementation discussion.
 
 ## Pull requests
 
