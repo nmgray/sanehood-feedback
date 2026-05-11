@@ -55,7 +55,7 @@ Not a fit:
 - support requests involving private account details
 
 If you need to report a security issue, do **not** open a public issue.
-Please use GitHub's private **Security issue** reporting option from this repository, or email the security team at **security@sanehood.example**.
+Please use GitHub's private **Security issue** reporting option from this repository, or email the team at **support@sanehood.com**.
 
 ## How updates are shared
 
