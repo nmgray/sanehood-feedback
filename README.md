@@ -54,7 +54,8 @@ Not a fit:
 - security disclosures in public
 - support requests involving private account details
 
-If you need to report a security issue, please use the private security contact process instead of a public issue.
+If you need to report a security issue, do **not** open a public issue.
+Please use GitHub's private **Security issue** reporting option from this repository, or email the security team at **security@sanehood.example**.
 
 ## How updates are shared
 
