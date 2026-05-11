@@ -1,0 +1,64 @@
+name: Feature request
+description: Suggest a new feature or improvement
+title: "[Feature]: "
+labels:
+  - "type/feature"
+  - "status/needs-triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please focus on the user problem and desired outcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: I want an easier way to resume a previous meditation flow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      placeholder: Add a resume last session option on the dashboard.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this be useful?
+      placeholder: It would reduce friction for users who meditate daily.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Meditation session
+        - Login / account
+        - Dashboard
+        - Events
+        - Campaigns
+        - Accessibility
+        - Performance
+        - Content / copy
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Optional
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional
